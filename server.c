@@ -61,7 +61,6 @@ int main() {
 
         close(new_socket);
     }
-    //Project Pterophyllum
-
+    
     return 0;
 }

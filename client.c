@@ -56,7 +56,6 @@ int main() {
 
     send(sock, buffer, sizeof(nick_name_length) + nick_name_length + sizeof(message_length) + message_length, 0);
 
-    //Project Pterophyllum
     close(sock);
     return 0;
 }
